@@ -1,10 +1,24 @@
 # Minesweeper
+Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field.
 
-<img src="https://user-images.githubusercontent.com/43718012/141606076-1753dd13-b8b0-4aa7-8848-0ba710d41a7c.jpg" width="300">
+This is an android application which is build using kotlin.
 
-<img src="https://user-images.githubusercontent.com/43718012/141606077-2dc8a6d0-efb3-4fc1-8bdc-732a108c62e4.jpg" width="300">
+## First Screen
+![](MainPage.png)
 
-<img src="https://user-images.githubusercontent.com/43718012/141606079-c36bb3c9-759e-4cc8-8aaf-b1d8e8ded75c.jpg" width="300">
+## Instructions
+![](Instructions.png)
 
-<img src="https://user-images.githubusercontent.com/43718012/141606080-b6a4e580-e275-4dc8-a38b-5140491c3a0d.jpg" width="300">
+## Game Screen
+![](GamePage.png)
 
+# Features
+- [x] Three different difficulty levels with an option to create custom board
+- [x] Mines are set randomly on first click
+- [x] Top bezel shows the mine count (Mines Left = number of mines - marked mines)
+- [x] Option to mark-mine/open-mine using button in top bezel
+- [x] Option to restart game anytime using the smile icon
+- [x] Option to mark-mine/open-mine using button in top bezel
+- [x] Instructions can be viewed by clicking on 'i' button on first page
+- [x] Saves the best time and the last game time (if the last game status is lost, it shows lost)
+- [x] Option to share best time with friends
